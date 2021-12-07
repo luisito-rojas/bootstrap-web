@@ -1,0 +1,67 @@
+h1 {
+    color: rgb(255, 56, 193);
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+header {
+    margin-top: 105px;
+}
+
+#testimonial {
+    background-color: #f1f1f1;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#contacto {
+    background: url(../img/smartphones.png);
+}
+
+.social {
+    /*le vamos a poner un margen para todos los lados (arriba,abajo y hacia los lados*/
+    margin: 20px;
+}
+
+.social p {
+    font-weight: 700;
+    font-size: 3rem;
+    /*vamos a alinear al centro y aumentar el tamaño de la letra de "Follow DeporTech"*/
+    text-align: center;
+    /*Aui le vamos a poner un margen para que se vea como un titulo*/
+    margin-bottom: 20px;
+
+
+}
+
+/*Vamos a manipular los logos de las redes sociales*/
+#links {
+    /*Vamos a centrar los logos abajo del "Follow DeporTech"*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+/*Aqui le vamos a poner un argen de 0 arriba y abajo, y 30 hacia los lados*/
+#links a {
+    margin: 1rem;
+}
+
+#links a:hover {
+    transform: scale(1.5);
+}
+
+/*Alos iconos les vamos a aumentar el tamaño*/
+#links a i {
+    font-size: 2rem;
+    color: #aaa;
+}
+footer .copyright{
+    text-align: center;
+    font-size: 1rem;
+}
